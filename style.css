@@ -17,14 +17,16 @@
 .left-section {
     grid-column: span 2;
     height: 100%;
-    background-color: #999999;
+    background-color: #00204A;
+    border-radius: 0px;
 }
 
 .right-section {
     grid-column: span 5;
     height: 100%;
-    background-color: #424a50;
+    background-color: #4B6982;
     border-radius: 0px 60px 0px 0px;
+    padding-left: 1.5rem;
 }
 
 .left-section-contents {
@@ -33,7 +35,6 @@
 
 .profile {
     width: 100%;
-    border-bottom: 2px solid #eeeeee;
 }
 
 .profile .profile-image {
@@ -42,49 +43,75 @@
 }
 
 .name {
-    color: #D6DBDF;
     font-size: 30px;
+    line-height: 35px;
+    text-align: center;
     letter-spacing: 2px;
     text-transform: uppercase;
+    color: #D6DBDF;
 }
 
 .profession {
-    color: #eeeeee;
+    font-weight: 400;
     font-size: 20px;
-    text-transform: uppercase;
+    line-height: 23px;
     text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FDB44B;
+    padding-bottom: 1.25rem;
+    padding-top: 1.25rem;
 }
 
 /* .contact-info { border-bottom: 2px solid #1B2631; } */
 .left-title {
-    color: #eeeeee;
+    padding-top: 3.43rem;
+    padding-bottom: 1.5rem;
+    font-weight: 400;
     font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FDB44B;
 }
 
-.contact-info ul {
-    padding-top: 1.5rem;
+.contact-info {
+    padding-left: 1rem;
 }
 
 .contact-info ul li,
 .references ul li {
     padding: .4rem 0;
-    color: #eeeeee;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 1px;
+    color: #d6dbdfaf;
 }
 
 .contact-info ul li i,
 .references ul li i {
-    padding-right: 1rem;
     font-size: 18px;
-    color: #eeeeee;
+
 }
 
-.skills ul {
-    padding-top: 1.5rem;
+.skills {
+    font-weight: 400;
+    font-size: 1px;
+    line-height: 21px;
+    letter-spacing: 1px;
+    padding-left: 1rem;
+    color: rgba(214, 219, 223, 0.686);
 }
 
 .skills ul li p {
     padding: .4rem 0;
-    color: #eeeeee;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: rgba(214, 219, 223, 0.686);
 }
 
 .right-section-contents {
@@ -92,7 +119,13 @@
 }
 
 .right-title {
-    color: #eeeeee;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 47px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #70C6C7;
+    padding-bottom: 2.06rem;
 }
 
 .gap {
@@ -102,4 +135,59 @@
 .about-me-contents {
     font-size: 18px;
     color: #eeeeee;
+}
+
+.exp-desc,
+.education-desc,
+.certificates-desc {
+    padding-left: 0.5rem;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #F1F8FD;
+}
+
+.experience-contents,
+.education-contents,
+.certificates-contents {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 2rem;
+    color: #F1F8FD;
+}
+
+.exp-company,
+.education-company,
+.certificates-company {
+    padding-bottom: 0.43rem;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FDB44B;
+}
+
+.exp-time-period,
+.education-time-period,
+.certificates-time-period {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 1px;
+    color: #F1F8FD;
+}
+
+.exp-position,
+.education-position,
+.certificates-position {
+    padding-bottom: 0.43rem;
+    font-size: 16px;
+    padding-left: 5px;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    letter-spacing: 1px;
+    color: #FDB44B;
 }
