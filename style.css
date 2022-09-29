@@ -38,7 +38,8 @@
 }
 
 .profile .profile-image {
-    width: 100%;
+    padding: 1.50rem;
+        width: 100%;
     border-radius: 100%;
 }
 
@@ -63,7 +64,6 @@
     padding-top: 1.25rem;
 }
 
-/* .contact-info { border-bottom: 2px solid #1B2631; } */
 .left-title {
     padding-top: 3.43rem;
     padding-bottom: 1.5rem;
@@ -125,6 +125,7 @@
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #70C6C7;
+    padding-top: 2rem;
     padding-bottom: 2.06rem;
 }
 
