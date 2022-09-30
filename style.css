@@ -17,8 +17,7 @@
 .left-section {
     grid-column: span 2;
     height: 100%;
-    background-color: #00204A;
-        border-radius: 0px;
+    background-color: #999999;
 }
 
 .right-section {
@@ -26,6 +25,7 @@
     height: 100%;
     background-color: #4B6982;
     border-radius: 0px 60px 0px 0px;
+    padding-left: 1.5rem;
     padding-left: 1.5rem;
 }
 
@@ -38,14 +38,15 @@
 }
 
 .profile .profile-image {
-    width: 100%;
+    padding: 1.50rem;
+        width: 100%;
     border-radius: 100%;
 }
 
 .name {
     font-size: 30px;
     line-height: 35px;
-        text-align: center;
+    text-align: center;
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #D6DBDF;
@@ -55,24 +56,23 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 23px;
-        text-align: center;
-        letter-spacing: 2px;
+    text-align: center;
+    letter-spacing: 2px;
     text-transform: uppercase;
     color: #FDB44B;
-        padding-bottom: 1.25rem;
-        padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    padding-top: 1.25rem;
 }
 
-/* .contact-info { border-bottom: 2px solid #1B2631; } */
 .left-title {
     padding-top: 3.43rem;
-        padding-bottom: 1.5rem;
-        font-weight: 400;
+    padding-bottom: 1.5rem;
+    font-weight: 400;
     font-size: 20px;
     line-height: 23px;
-        letter-spacing: 2px;
-        text-transform: uppercase;
-        color: #FDB44B;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FDB44B;
 }
 
 .contact-info {
@@ -83,10 +83,10 @@
 .references ul li {
     padding: .4rem 0;
     font-weight: 400;
-        font-size: 18px;
-        line-height: 21px;
-        letter-spacing: 1px;
-        color: #d6dbdfaf;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 1px;
+    color: #d6dbdfaf;
 }
 
 .contact-info ul li i,
@@ -107,11 +107,11 @@
 .skills ul li p {
     padding: .4rem 0;
     font-weight: 400;
-        font-size: 18px;
-        line-height: 21px;
-        letter-spacing: 1px;
-        text-transform: uppercase;
-        color: rgba(214, 219, 223, 0.686);
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: rgba(214, 219, 223, 0.686);
 }
 
 .right-section-contents {
@@ -120,12 +120,13 @@
 
 .right-title {
     font-weight: 400;
-        font-size: 40px;
-        line-height: 47px;
-        letter-spacing: 2px;
-        text-transform: uppercase;
-        color: #70C6C7;
-        padding-bottom: 2.06rem;
+    font-size: 40px;
+    line-height: 47px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #70C6C7;
+    padding-top: 2rem;
+    padding-bottom: 2.06rem;
 }
 
 .gap {
@@ -136,9 +137,11 @@
     font-size: 18px;
     color: #eeeeee;
 }
+
 .exp-desc,
 .education-desc,
 .certificates-desc {
+    padding-left: 0.5rem;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -169,7 +172,7 @@
 
 .exp-time-period,
 .education-time-period,
-.education-time-period {
+.certificates-time-period {
     font-weight: 400;
     font-size: 18px;
     line-height: 32px;
