@@ -1,2 +1,2 @@
 # nicolasbrunomorais.github.io
-Currículo Jornada Dev
+Currículo finalizado Jornada Dev
